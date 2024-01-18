@@ -1,11 +1,8 @@
 # Dicoding_Analisis_Data
-#Setup Environment
+
+## Setup Environment
+
 ```bash
 conda create --name main-ds python=3.11
 conda activate main-ds
 pip install pandas matplotlib seaborn streamlit
-
-
-##Run streamlit app
-'''bash
-streamlit run app.py
