@@ -13,8 +13,8 @@ import seaborn as sns
 import streamlit as st
 import pandas as pd
 
-file_path_1 = "C:/Users/Lenovo/Documents/Dicoding Analisis Data/E-Commerce Public Dataset/order_payments_dataset.csv"
-file_path_2 = "C:/Users/Lenovo/Documents/Dicoding Analisis Data/E-Commerce Public Dataset/orders_dataset.csv"
+file_path_1 = "https://raw.githubusercontent/NickyLay/Dicoding_Analisis_Data/main/order_payments_dataset.csv"
+file_path_2 = "https://raw.githubusercontent/NickyLay/Dicoding_Analisis_Data/main/orders_dataset.csv"
 df_1 = pd.read_csv(file_path_1)
 df_2 = pd.read_csv(file_path_2)
 
